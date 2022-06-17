@@ -48,7 +48,7 @@ function countdown(){
         updateTimerDisplay(minutes, String(seconds - 1))
         
         countdown()
-    }, 100)
+    }, 1000)
 
 }
 
